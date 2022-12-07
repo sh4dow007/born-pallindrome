@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Born Palindrome</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="banner">
+      <h1 id="heading">Are you the Born Palindrome?</h1>
+      <img
+        id="hero-img"
+        src="assets/hero-img.jpg"
+        alt="Is Your Birthday a Palindrome?"
+      />
+      <a
+        id="main-link"
+        href="https://born-pallindrome.netlify.app/#main-app"
+      >
+        Let's Check!
+      </a>
+    </div>
+    <div id="main-app">
+      <form class="form-style">
+        <h3 class="github-repo"><a class="github-repo-link" href="https://github.com/sh4dow007/born-pallindrome">Github-Repo<span><i class="fas fa-location-arrow redirect"></i></span></a></h3>
+        <label for="birth-date" class="label-style"
+          >Enter Your Birth Date:
+        </label>
+        <input
+          type="date"
+          name="Birth-Date"
+          id="birth-date"
+          class="input-style"
+        />
+        <button id="check" class="check-style">Check</button>
+      </form>
+      <img
+        src="assets/loading-img.gif"
+        alt="wait for it!"
+        id="loading-img"
+        style="display: none"
+        class="loading-img"
+      />
+      <div id="final-result">
+        <p id="result" class="result-style"></p>
+        <p id="tell-palindrome"></p>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="https://github.com/sh4dow007/"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/kaushal-aditya/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/Adit_kaushal"><i class="fab fa-twitter-square"></i></a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
